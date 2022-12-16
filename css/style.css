@@ -1,0 +1,149 @@
+:root {
+  --primary-brand-color: #4d5ae5;
+  --header-color: #2e2f42;
+  --main-text-color: #434455;
+  --secondary-font: "Raleway", sans-serif;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.web {
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.web,
+.btn {
+  color: var(--primary-brand-color);
+}
+
+.studio {
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.studio,
+.menu-link,
+.secondary-header,
+.third-header {
+  color: var(--header-color);
+}
+
+.menu-item {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.menu-link:hover,
+.menu-link:focus,
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--primary-brand-color);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+
+.hero {
+  background: var(--header-color);
+}
+
+.contact-link {
+  color: var(--main-text-color);
+}
+
+.main-header {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  color: #ffffff;
+}
+
+.hide {
+  display: none;
+}
+
+.modal-btn {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.19;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  background-color: var(--primary-brand-color);
+  color: #ffffff;
+}
+
+.btn {
+  font-family: inherit;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+}
+
+.btn:hover,
+.btn:focus,
+.modal-btn,
+.modal-btn:hover,
+.modal-btn:focus {
+  color: #ffffff;
+  background: var(--primary-brand-color);
+  cursor: pointer;
+}
+
+.btn:active,
+.modal-btn:active {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+
+.secondary-header {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.third-header {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.downside {
+  background-color: var(--header-color);
+}
+
+.studio-down {
+  color: #f4f4fd;
+}
+
+.tagline {
+  color: #e7e9fc;
+}
